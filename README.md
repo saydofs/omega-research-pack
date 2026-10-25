@@ -51,15 +51,15 @@ A_l(n;W)=\sum_{k=n-W+1}^{n} d_G(X_k,X_{k-1})
 
 with:
 
-\[
-0\le \mathcal I_\Omega \le 1
-\]
+$$
+0 \le \mathcal I_\Omega \le 1
+$$
 
 The multivariate metric is:
 
-\[
+$$
 d_G(x,y)=\sqrt{(x-y)^T G(x-y)}
-\]
+$$
 
 where the operational diagonal metric is calibrated from training/reference data only.
 
@@ -127,10 +127,12 @@ python sensor_csv_adapter.py your_data.csv --columns temperature,pressure,vibrat
 
 ## Citation
 
-Please cite the software record once its Zenodo DOI is assigned.
-The conceptual framework is currently represented by the related working preprint:
+Please cite the software record using the Zenodo DOI below. The conceptual framework is currently represented by the related working preprint:
 
 Mohamed Sayed, *The Universe That Never Repeats: Omega-NR — Exact Physical Non-Repetition, Accumulated Change, and a Testable Quantum-Geometric Extension*, Zenodo, 2026. DOI: 10.5281/zenodo.23624320.
+
+Software DOI: 10.5281/zenodo.23637375
+Concept DOI: 10.5281/zenodo.23637374
 
 ## License
 
