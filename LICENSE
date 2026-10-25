@@ -1,21 +1,25 @@
-MIT License
+PolyForm Noncommercial License 1.0.0
 
-Copyright (c) 2026 Mohamed Sayed
+Official license terms:
+https://polyformproject.org/licenses/noncommercial/1.0.0
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Required Notice: Copyright (c) 2026 Mohamed Sayed
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This software is licensed under the PolyForm Noncommercial License 1.0.0.
+
+Noncommercial research, study, testing, experimentation, modification, and
+distribution are permitted only as provided by the official license terms above.
+
+Commercial use requires a separate written commercial license or authorization
+from Mohamed Sayed.
+
+Historical licensing notice:
+Omega Research Pack v4.0.0 was originally released under the MIT License.
+Rights already granted under that historical v4.0.0 release remain governed by
+the MIT License that accompanied that release.
+
+This LICENSE file applies to the current development branch and to future
+releases that expressly reference this license, unless a specific release states
+different licensing terms.
