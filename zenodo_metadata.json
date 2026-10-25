@@ -29,5 +29,8 @@
       "relation": "isSupplementTo",
       "resource_type": "publication-preprint"
     }
-  ]
+  ],
+  "doi": "10.5281/zenodo.23637375",
+  "url": "https://doi.org/10.5281/zenodo.23637375",
+  "repository_url": "https://github.com/saydofs/omega-research-pack"
 }
