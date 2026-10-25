@@ -159,11 +159,44 @@ The public release of this research is intended to establish a clear and dated s
 
 Publication of the framework and software as an open research project does not constitute a transfer, assignment, abandonment, or waiver of authorship, scholarly priority, attribution, or any other rights that may apply to the original research work.
 
-Researchers who test, criticize, extend, reformulate, or build upon Omega-NR are encouraged to preserve appropriate scholarly attribution to the original work and associated research records.
+Researchers who test, criticize, extend, reformulate, or build upon Omega-NR are requested to preserve appropriate scholarly attribution to the original work and associated research records.
 
-The software code in this repository is governed by the **MIT License** included in the repository.
+## Research and Noncommercial Use
 
-The theoretical framework, research manuscripts, authorship claims, scholarly priority, and related research materials remain subject to their respective publication terms and applicable rights.
+The current development branch of this repository is intended to support noncommercial research, academic study, independent testing, experimentation, validation, criticism, and further scientific development.
+
+Use of the software must comply with the license applicable to the specific version or release being used.
+
+Researchers are encouraged to study, test, reproduce, criticize, and extend the work in accordance with the applicable license and with appropriate scholarly attribution.
+
+## Commercial Use
+
+Commercial use of versions released under a noncommercial license requires a separate written license or authorization from **Mohamed Sayed**.
+
+Commercial use includes, where applicable:
+
+- incorporation into commercial products or services,
+- commercial deployment,
+- paid implementation or integration,
+- resale or redistribution as part of a commercial offering,
+- use as part of a revenue-generating service,
+- licensing, sublicensing, or commercialization of derivative implementations where restricted by the applicable license.
+
+For commercial licensing or collaboration, contact the author through the public repository or the contact information associated with the published research record.
+
+Nothing in this section retroactively changes rights already granted under an earlier software release.
+
+In particular, **Omega Research Pack v4.0.0 was originally released under the MIT License**, and the rights granted under that release remain governed by the license that accompanied that release.
+
+## Rights Notice
+
+Copyright © 2026 **Mohamed Sayed**.
+
+All rights not expressly granted by the applicable license are reserved.
+
+The theoretical framework, research manuscripts, authorship claims, scholarly priority, and related research materials are distinct from the software license and remain subject to their respective publication terms and applicable rights.
+
+No statement in this repository should be interpreted as a transfer or abandonment of authorship, scholarly priority, attribution, or other rights in the original Omega-NR research work.
 
 ## Development Philosophy
 
@@ -175,11 +208,11 @@ The objective is to determine where Omega-derived path-history quantities add me
 
 Future versions may refine the operational definitions, improve validation methods, introduce new experimental domains, or revise parts of the current implementation while preserving the historical record of earlier versions.
 
-## Versioning
+## Versioning and Licensing
 
 This repository uses versioned public releases.
 
-The current public software release is:
+The first public software release is:
 
 **Omega Research Pack v4.0.0**
 
@@ -187,13 +220,19 @@ The corresponding GitHub release is tagged:
 
 `v4.0.0`
 
+Version `v4.0.0` was released under the **MIT License**.
+
+Future versions may be distributed under different licensing terms. Users must refer to the `LICENSE` file and release information associated with the specific version they use.
+
 Published versions should be treated as fixed research records.
 
-Future substantive changes should be released as a new version rather than silently modifying the scientific meaning of an earlier release.
+Future substantive changes, including licensing changes, should be released as a new version rather than silently changing the historical meaning of an earlier release.
 
 ## License
 
-MIT License. See `LICENSE`.
+The license applicable to the current development version is provided in the repository's `LICENSE` file.
+
+The historical `v4.0.0` release remains governed by the MIT License under which it was originally published.
 
 ## Disclaimer
 
