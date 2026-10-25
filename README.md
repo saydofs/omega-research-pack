@@ -34,20 +34,20 @@ The package contains two main experimental tracks:
 
 For a state trajectory X:
 
-\[
+$$
 A_g(n)=\sum_{k=1}^{n} d_G(X_k,X_{k-1})
-\]
+$$
 
-\[
+$$
 A_l(n;W)=\sum_{k=n-W+1}^{n} d_G(X_k,X_{k-1})
-\]
+$$
 
-\[
+$$
 \mathcal I_\Omega
 =
 1-
 \frac{d_G(X_{n-W},X_n)}{A_l}
-\]
+$$
 
 with:
 
@@ -131,8 +131,8 @@ Please cite the software record using the Zenodo DOI below. The conceptual frame
 
 Mohamed Sayed, *The Universe That Never Repeats: Omega-NR — Exact Physical Non-Repetition, Accumulated Change, and a Testable Quantum-Geometric Extension*, Zenodo, 2026. DOI: 10.5281/zenodo.23624320.
 
-Software DOI: 10.5281/zenodo.23637375
-Concept DOI: 10.5281/zenodo.23637374
+**Software DOI:** 10.5281/zenodo.23637375  
+**Concept DOI:** 10.5281/zenodo.23637374
 
 ## License
 
