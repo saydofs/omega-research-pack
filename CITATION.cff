@@ -8,17 +8,14 @@ authors:
 version: "4.0.0"
 date-released: "2026-10-25"
 license: MIT
-repository-code: ""
-url: "https://doi.org/10.5281/zenodo.23624320"
+repository-code: "https://github.com/saydofs/omega-research-pack"
+doi: "10.5281/zenodo.23637375"
+url: "https://doi.org/10.5281/zenodo.23637375"
+
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23637375"
+    description: "Omega Research Pack v4 software record"
   - type: doi
     value: "10.5281/zenodo.23624320"
     description: "Related Omega-NR working preprint"
-preferred-citation:
-  type: article
-  title: "The Universe That Never Repeats: Omega-NR — Exact Physical Non-Repetition, Accumulated Change, and a Testable Quantum-Geometric Extension"
-  authors:
-    - family-names: "Sayed"
-      given-names: "Mohamed"
-  year: 2026
-  doi: "10.5281/zenodo.23624320"
