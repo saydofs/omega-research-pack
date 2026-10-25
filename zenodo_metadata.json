@@ -1,0 +1,33 @@
+{
+  "title": "Omega Research Pack v4 — Omega Core and History-Bound Life-Key Prototype",
+  "upload_type": "software",
+  "publication_date": "2026-10-25",
+  "creators": [
+    {
+      "name": "Sayed, Mohamed",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Research software accompanying the Omega-NR framework. The package implements Omega Core v4 path-history features, a multivariate robust metric, Omega irreversibility and reversal statistics, and the Omega Life-Key v4 history-bound key-evolution research prototype. It includes adversarial simulations, negative controls, real time-series benchmarks, reproducibility tests, and a generic sensor CSV adapter. This is research software and not production cryptography.",
+  "keywords": [
+    "Omega-NR",
+    "physical non-repetition",
+    "path history",
+    "accumulated change",
+    "irreversibility",
+    "predictive maintenance",
+    "history-bound authentication",
+    "key evolution",
+    "physical device identity",
+    "research software"
+  ],
+  "license": "MIT",
+  "version": "4.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23624320",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}

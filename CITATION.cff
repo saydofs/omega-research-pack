@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software record and the related Omega-NR working preprint."
+title: "Omega Research Pack v4"
+type: software
+authors:
+  - family-names: "Sayed"
+    given-names: "Mohamed"
+version: "4.0.0"
+date-released: "2026-10-25"
+license: MIT
+repository-code: ""
+url: "https://doi.org/10.5281/zenodo.23624320"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23624320"
+    description: "Related Omega-NR working preprint"
+preferred-citation:
+  type: article
+  title: "The Universe That Never Repeats: Omega-NR — Exact Physical Non-Repetition, Accumulated Change, and a Testable Quantum-Geometric Extension"
+  authors:
+    - family-names: "Sayed"
+      given-names: "Mohamed"
+  year: 2026
+  doi: "10.5281/zenodo.23624320"

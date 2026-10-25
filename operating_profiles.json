@@ -1,0 +1,18 @@
+{
+  "stable": {
+    "projector_k": 5.0,
+    "hysteresis": 0.5,
+    "observed_noise_match_1e-4": 0.9766666666666667,
+    "observed_noise_match_5e-4": 0.66,
+    "observed_clone_detection_delay_steps": 45,
+    "use_case": "noisy sensing / lower false desynchronization"
+  },
+  "fast_detect": {
+    "projector_k": 4.0,
+    "hysteresis": 0.1,
+    "observed_noise_match_1e-4": 0.9333333333333333,
+    "observed_noise_match_5e-4": 0.5866666666666667,
+    "observed_clone_detection_delay_steps": 10,
+    "use_case": "faster clone divergence / accepts more noise mismatches"
+  }
+}

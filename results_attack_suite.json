@@ -1,0 +1,31 @@
+{
+  "noise_match": {
+    "1e-5": 1.0,
+    "1e-4": 0.92,
+    "5e-4": 0.5633333333333334,
+    "1e-3": 0.25666666666666665
+  },
+  "drift_match": {
+    "1e-7": 0.92,
+    "1e-6": 0.92,
+    "5e-6": 0.9266666666666666
+  },
+  "clone": {
+    "clone_at": 110,
+    "first_key_divergence": 140,
+    "diverged": true
+  },
+  "replay_rollback": {
+    "old_nonce_tag_valid_with_new_nonce": false,
+    "old_state_tag_valid_now": false
+  },
+  "sensor_replay": {
+    "detected_rate": 0.8888888888888888
+  },
+  "exact_history_negative_control": {
+    "same_key_fraction": 1.0
+  },
+  "different_device_binding": {
+    "same_key_fraction": 0.0
+  }
+}
