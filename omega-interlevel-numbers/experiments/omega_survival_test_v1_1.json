@@ -1,0 +1,47 @@
+{
+  "version": "Omega Main Survival Test v1.1",
+  "explicit_examples": [
+    {
+      "A": "5[77[]]",
+      "B": "5[7[7[]]]",
+      "same_surface": true,
+      "complexity_readout_A": 9,
+      "complexity_readout_B": 11,
+      "branch_readout_A": 7,
+      "branch_readout_B": 10,
+      "probe_scalar_A": 9,
+      "probe_scalar_B": 11
+    },
+    {
+      "A": "5[12[]|9[]]",
+      "B": "5[1[2[]]|9[]]",
+      "same_surface": true,
+      "complexity_readout_A": 11,
+      "complexity_readout_B": 13,
+      "branch_readout_A": 11,
+      "branch_readout_B": 14,
+      "probe_scalar_A": 18,
+      "probe_scalar_B": 20
+    },
+    {
+      "A": "8[3[]|4[2[]]]",
+      "B": "8[34[]|2[]]",
+      "same_surface": true,
+      "complexity_readout_A": 16,
+      "complexity_readout_B": 14,
+      "branch_readout_A": 17,
+      "branch_readout_B": 14,
+      "probe_scalar_A": 20,
+      "probe_scalar_B": 18
+    }
+  ],
+  "random_test": {
+    "generated_pairs": 5000,
+    "structurally_different_same_surface_pairs": 4184,
+    "distinguished_by_complexity_readout": 4036,
+    "distinguished_by_branch_readout": 4067,
+    "distinguished_by_probe_composition_scalar": 4077,
+    "not_distinguished_by_any_of_three_coarse_readouts": 98
+  },
+  "verdict": "Internal structure can change operational outputs while the original surface value stays fixed. This supports the framework as more than display metadata. A canonical axiom-derived interaction law is still required before calling it a new number system."
+}

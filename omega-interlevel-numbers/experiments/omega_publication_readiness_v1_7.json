@@ -1,0 +1,62 @@
+{
+  "version": "Omega publication-readiness validation v1.7",
+  "bounded_branching_mass": {
+    "trials": 10000,
+    "violations": 0,
+    "examples": [
+      {
+        "B": 4,
+        "partial_mass_100": 3.180035737600334,
+        "bound_B_plus_1": 5
+      },
+      {
+        "B": 10,
+        "partial_mass_100": 6.387815491934699,
+        "bound_B_plus_1": 11
+      },
+      {
+        "B": 18,
+        "partial_mass_100": 5.153787152325619,
+        "bound_B_plus_1": 19
+      }
+    ],
+    "theorem": "If every local branching degree b_v <= B, then level mass contracts by at most B/(B+1), hence total canonical mass <= B+1."
+  },
+  "projection_composition": {
+    "trials": 20000,
+    "failures": 0,
+    "law": "Pi_j(Pi_k(N)) = Pi_min(j,k)(N)"
+  },
+  "path_algebra_large_stress": {
+    "trials": 20000,
+    "failures": {
+      "add_comm": 0,
+      "add_assoc": 0,
+      "mul_assoc": 0,
+      "left_distrib": 0,
+      "right_distrib": 0
+    }
+  },
+  "publication_core_theorems_candidate": [
+    "Finite structural signature injectivity.",
+    "Projection composition law.",
+    "Associativity of ordered path multiplication.",
+    "Left and right distributivity over path addition.",
+    "No zero divisors in the finite nonnegative path algebra.",
+    "Local Emergence Conservation Law.",
+    "Finite-mass theorem for bounded branching.",
+    "Infinite-path unique geometric address under canonical interval contraction.",
+    "Conditional exact structural subtraction.",
+    "Structural return does not restore Omega realization identity."
+  ],
+  "remaining_before_final_paper": [
+    "Write rigorous proofs in publication form rather than relying on computational checks.",
+    "Unify notation and remove superseded prototype definitions.",
+    "State clearly which axioms belong to Omega-NR and which are new interlevel assumptions.",
+    "Add figures and a reader-friendly worked example from start to finish.",
+    "Add limitations/open-problems section and constructive-contribution statement.",
+    "Audit novelty/prior art only after internal framework is frozen.",
+    "Prepare archival code/results package and final PDF."
+  ],
+  "readiness": "Mathematical framework is now coherent enough to draft the paper, but not yet ready to upload as a final preprint until proofs, notation freeze, and prior-art audit are completed."
+}

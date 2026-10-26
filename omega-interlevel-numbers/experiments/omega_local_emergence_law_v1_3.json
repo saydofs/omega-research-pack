@@ -1,0 +1,217 @@
+{
+  "version": "Omega Local Emergence Law v1.3",
+  "law": {
+    "edge_share": "c_e=1/(b(parent)+1)",
+    "retained_parent_share": "1/(b+1)",
+    "all_children_total": "b/(b+1)",
+    "axioms": "local conservation + local symmetry among b children and one retained parent-state channel"
+  },
+  "local_conservation_max_error_100k": 2.842170943040401e-14,
+  "same_surface_examples": [
+    {
+      "A": "5[7[]|7[]]",
+      "B": "5[7[7[]]]",
+      "same_surface": true,
+      "mass_A": 1.6666666666666665,
+      "mass_B": 1.75,
+      "level_mass_A": {
+        "0": 1.0,
+        "1": 0.6666666666666666
+      },
+      "level_mass_B": {
+        "0": 1.0,
+        "1": 0.5,
+        "2": 0.25
+      },
+      "distinguished": true
+    },
+    {
+      "A": "5[1[]|2[]|9[]]",
+      "B": "5[1[2[]]|9[]]",
+      "same_surface": true,
+      "mass_A": 1.75,
+      "mass_B": 1.8333333333333333,
+      "level_mass_A": {
+        "0": 1.0,
+        "1": 0.75
+      },
+      "level_mass_B": {
+        "0": 1.0,
+        "1": 0.6666666666666666,
+        "2": 0.16666666666666666
+      },
+      "distinguished": true
+    },
+    {
+      "A": "8[3[]|4[2[]]]",
+      "B": "8[34[]|2[]]",
+      "same_surface": true,
+      "mass_A": 1.8333333333333333,
+      "mass_B": 1.6666666666666665,
+      "level_mass_A": {
+        "0": 1.0,
+        "1": 0.6666666666666666,
+        "2": 0.16666666666666666
+      },
+      "level_mass_B": {
+        "0": 1.0,
+        "1": 0.6666666666666666
+      },
+      "distinguished": true
+    }
+  ],
+  "random_discrimination": {
+    "structurally_different_same_surface_pairs": 8826,
+    "distinguished_by_mass": 8699,
+    "equal_mass_different_structure": 127
+  },
+  "full_regular_branching": {
+    "1": {
+      "level_ratio": 0.5,
+      "finite_mass": {
+        "1": 1.5,
+        "2": 1.75,
+        "4": 1.9375,
+        "8": 1.99609375,
+        "16": 1.9999847412109375,
+        "32": 1.9999999997671694
+      },
+      "infinite_mass": 2.0
+    },
+    "2": {
+      "level_ratio": 0.6666666666666666,
+      "finite_mass": {
+        "1": 1.6666666666666665,
+        "2": 2.111111111111111,
+        "4": 2.6049382716049383,
+        "8": 2.921963115378753,
+        "16": 2.9969551223193047,
+        "32": 2.9999953643599544
+      },
+      "infinite_mass": 2.9999999999999996
+    },
+    "3": {
+      "level_ratio": 0.75,
+      "finite_mass": {
+        "1": 1.75,
+        "2": 2.3125,
+        "4": 3.05078125,
+        "8": 3.6996612548828125,
+        "16": 3.9699322127271444,
+        "32": 3.999698642722838
+      },
+      "infinite_mass": 4.0
+    },
+    "4": {
+      "level_ratio": 0.8,
+      "finite_mass": {
+        "1": 1.8,
+        "2": 2.4400000000000004,
+        "4": 3.3616,
+        "8": 4.328911360000001,
+        "16": 4.887410009315738,
+        "32": 4.99683087349943
+      },
+      "infinite_mass": 5.000000000000001
+    },
+    "5": {
+      "level_ratio": 0.8333333333333334,
+      "finite_mass": {
+        "1": 1.8333333333333335,
+        "2": 2.5277777777777777,
+        "4": 3.588734567901235,
+        "8": 4.837159803193112,
+        "16": 5.729560535338024,
+        "32": 5.98537249919067
+      },
+      "infinite_mass": 6.000000000000002
+    },
+    "10": {
+      "level_ratio": 0.9090909090909091,
+      "finite_mass": {
+        "1": 1.9090909090909092,
+        "2": 2.7355371900826446,
+        "4": 4.169865446349293,
+        "8": 6.334926197902665,
+        "16": 8.823708642098511,
+        "32": 10.526375592552327
+      },
+      "infinite_mass": 10.999999999999996
+    },
+    "100": {
+      "level_ratio": 0.9900990099009901,
+      "finite_mass": {
+        "1": 1.99009900990099,
+        "2": 2.970395059307911,
+        "4": 4.901965551718371,
+        "8": 8.651677751768775,
+        "16": 15.717873779368416,
+        "32": 28.269589472882625
+      },
+      "infinite_mass": 100.99999999999991
+    }
+  },
+  "irregular_level_branching_samples": [
+    {
+      "seed": 0,
+      "partial_mass_500": 9.106245708278717,
+      "level_mass_500": 1.4601391042804585e-34
+    },
+    {
+      "seed": 1,
+      "partial_mass_500": 7.046883039629299,
+      "level_mass_500": 8.099342343408175e-35
+    },
+    {
+      "seed": 2,
+      "partial_mass_500": 5.539251698030855,
+      "level_mass_500": 1.699546728198417e-34
+    },
+    {
+      "seed": 3,
+      "partial_mass_500": 9.07829459285475,
+      "level_mass_500": 2.9470163672379487e-33
+    },
+    {
+      "seed": 4,
+      "partial_mass_500": 6.659930682096428,
+      "level_mass_500": 9.395405409277566e-34
+    },
+    {
+      "seed": 5,
+      "partial_mass_500": 6.937304547637238,
+      "level_mass_500": 1.1806865638132272e-32
+    },
+    {
+      "seed": 6,
+      "partial_mass_500": 5.913083583002702,
+      "level_mass_500": 4.472928534929983e-35
+    },
+    {
+      "seed": 7,
+      "partial_mass_500": 6.293227355636905,
+      "level_mass_500": 4.077997277789075e-34
+    },
+    {
+      "seed": 8,
+      "partial_mass_500": 7.034691397892148,
+      "level_mass_500": 2.596799196322584e-32
+    },
+    {
+      "seed": 9,
+      "partial_mass_500": 7.920142720729709,
+      "level_mass_500": 2.967313268967307e-37
+    }
+  ],
+  "proved_within_model": [
+    "Local conservation: retained share plus all child shares equals incoming share exactly.",
+    "For a full b-ary hierarchy, level-k total mass is (b/(b+1))^k.",
+    "Hence the infinite total mass is b+1 for every finite b>=1.",
+    "The local law contains no free attenuation parameter."
+  ],
+  "limitations": [
+    "Total mass is an observable, not a complete identity invariant.",
+    "Equal sharing follows only when child branches are locally indistinguishable except for their existence/order.",
+    "If future geometry gives unequal branch strengths, replace equal shares by normalized positive local weights."
+  ]
+}

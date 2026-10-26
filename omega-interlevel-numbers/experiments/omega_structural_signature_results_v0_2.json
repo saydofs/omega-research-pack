@@ -1,0 +1,31 @@
+{
+  "prototype": "Omega Structural Signature v0.2",
+  "sample_size": 5000,
+  "max_depth": 5,
+  "distinct_H_profiles": 1563,
+  "H_collision_groups": 173,
+  "distinct_topologies": 994,
+  "topology_collision_groups": 145,
+  "distinct_full_signatures": 3852,
+  "full_signature_collision_groups_including_exact_duplicate_generation": 248,
+  "false_collisions_full_signature": 0,
+  "false_collisions_SHA256_digest": 0,
+  "explicit_H_collision_example": {
+    "H_profile": [
+      1,
+      4
+    ],
+    "tree_A": "1[275[]|3[]]",
+    "tree_B": "9[1475[]]",
+    "same_H": true,
+    "same_full_signature": false
+  },
+  "candidate_identity": {
+    "exact_finite_identity": "F_Omega(N) = ordered set of tuples (path, token, arity, token_length)",
+    "compressed_form": "C_Omega(N) = canonical recursive encoding",
+    "human_summary": "H_N(z) remains a coarse depth profile, while S_N records exact branch/path structure.",
+    "combined": "I_Omega(N) = (H_N(z), S_N)"
+  },
+  "mathematical_observation": "For finite ordered hierarchical numbers, the exact path signature is injective: if two signatures are equal, every occupied path and token is equal, so the trees are identical.",
+  "important_limit": "This establishes uniqueness only inside the formal finite-tree model. It does not prove the physical axiom that all realized numbers in nature are unique."
+}

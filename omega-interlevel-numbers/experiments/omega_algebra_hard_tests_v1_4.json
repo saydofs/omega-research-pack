@@ -1,0 +1,116 @@
+{
+  "version": "Omega Path Algebra Hard Tests v1.4",
+  "random_trials": 30000,
+  "random_results": {
+    "zero_divisor_hits": 0,
+    "left_cancellation_failures": 0,
+    "right_cancellation_failures": 0,
+    "nonzero_additive_inverse_hits": 0
+  },
+  "exhaustive_small_model": {
+    "elements_tested": 29,
+    "zero_divisor_hits": 0,
+    "left_cancellation_failures": 0,
+    "right_cancellation_failures": 0,
+    "multiplicative_units": [
+      [
+        [],
+        1
+      ]
+    ]
+  },
+  "formal_results_with_short_proofs": [
+    "No zero divisors: if A and B are nonempty path multisets, choose a path a in A and b in B; then a concatenated with b occurs in A⊗B, so A⊗B is nonempty.",
+    "The structural zero is not a physical nothingness claim; it is the additive identity in this algebraic representation.",
+    "The singleton empty path is a multiplicative identity.",
+    "No nonzero additive inverses exist with nonnegative multiplicities, so the structure is not a ring.",
+    "Naive structural-prime theory under plain path concatenation is mostly trivial: every singleton path of length >1 factors at every internal cut."
+  ],
+  "factorization_examples": [
+    {
+      "word": [
+        1,
+        2
+      ],
+      "nontrivial_factorizations": [
+        {
+          "left": [
+            1
+          ],
+          "right": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "word": [
+        1,
+        2,
+        3
+      ],
+      "nontrivial_factorizations": [
+        {
+          "left": [
+            1
+          ],
+          "right": [
+            2,
+            3
+          ]
+        },
+        {
+          "left": [
+            1,
+            2
+          ],
+          "right": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "word": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "nontrivial_factorizations": [
+        {
+          "left": [
+            4
+          ],
+          "right": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "left": [
+            4,
+            3
+          ],
+          "right": [
+            2,
+            1
+          ]
+        },
+        {
+          "left": [
+            4,
+            3,
+            2
+          ],
+          "right": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "decision_on_structural_primes": "REJECT naive prime-number analogy for the current path product. It adds little because ordinary path length already determines many factorizations. Revisit only if a richer multiplication produces nontrivial irreducibles.",
+  "cancellation_status": "Extensive random and exhaustive-small tests found no cancellation failure; a formal proof should use a fixed admissible word order/leading term argument before publication."
+}

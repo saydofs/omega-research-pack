@@ -1,0 +1,72 @@
+{
+  "version": "Omega validation v0.5",
+  "metric": {
+    "contracting_scales_monotone_weights": true,
+    "contracting_test": {
+      "trials": 30000,
+      "triangle_violations": 0,
+      "strong_triangle_violations": 0
+    },
+    "mixed_expansion_monotone_weights": false,
+    "mixed_expansion_test": {
+      "trials": 30000,
+      "triangle_violations": 0,
+      "strong_triangle_violations": 25
+    },
+    "derived_condition": "For first-difference distance d(A,B)=w_delta, the natural sufficient condition for the strong triangle inequality and 'deeper agreement means closer' is w_{k+1}<=w_k. If w_k=prod_{j<k} r_j, this requires r_k<=1 for every metric scale.",
+    "resolution": "Allow geometric thickness/step to expand independently, but keep a separate similarity scale c_k in (0,1] for the metric."
+  },
+  "injective_geometry_prototype": {
+    "construction": "Exact nested interval/address code using base 13 and a reserved separator symbol.",
+    "random_samples": 10000,
+    "false_collisions": 0,
+    "interpretation": "Finite ordered token paths can be embedded injectively into exact nested intervals; geometry can preserve full finite structure if its encoding is designed to be reconstructive."
+  },
+  "descent_ascent": {
+    "route_1": {
+      "route_length": 5,
+      "unique_structural_nodes": 3,
+      "revisit_count": 2,
+      "event_sequence": [
+        "N0@1",
+        "N1@1",
+        "N2@1",
+        "N1@2",
+        "N0@2"
+      ],
+      "history_signature": "N0@1→N1@1→N2@1→N1@2→N0@2"
+    },
+    "route_2": {
+      "route_length": 5,
+      "unique_structural_nodes": 3,
+      "revisit_count": 2,
+      "event_sequence": [
+        "N0@1",
+        "N1@1",
+        "N3@1",
+        "N1@2",
+        "N0@2"
+      ],
+      "history_signature": "N0@1→N1@1→N3@1→N1@2→N0@2"
+    },
+    "same_start_end": true,
+    "same_history_signature": false,
+    "interpretation": "Two traversals can start and end at the same structural locations yet remain different Omega histories because their event sequences differ."
+  },
+  "identity_vs_geometry": {
+    "same_structure_geometry_code": [
+      5626529023,
+      10604499373,
+      9
+    ],
+    "same_geometry_different_birth_identity": true,
+    "interpretation": "A purely structural geometry can encode the hierarchical number exactly, but Omega non-repetition requires an additional birth/history identity coordinate when two realizations share the same structure."
+  },
+  "current_core_model": {
+    "structural_number": "N_struct=(V, hierarchy, local geometry)",
+    "realized_omega_number": "N_Omega=(N_struct, beta, Gamma)",
+    "beta": "unique birth/realization identity",
+    "Gamma": "ordered event/history path",
+    "full_identity": "I_Omega=(structural signature, beta, Gamma)"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": "Omega Canonical Geometry v1.5",
+  "construction": [
+    "Each node with b children divides its inherited interval into b+1 equal local channels.",
+    "Channel 0 is retained by the parent-state; ordered child i receives channel i.",
+    "Therefore each child interval has width parent_width/(b+1), exactly matching the Local Emergence Law.",
+    "The node x-coordinate is the exact midpoint of its inherited interval.",
+    "Its token is encoded exactly as a rational base-12 offset inside its depth band.",
+    "Parent-child edges are part of the geometric object."
+  ],
+  "unification": {
+    "edge_influence": "c_e=1/(b+1)",
+    "child_interval_width": "width(child)=width(parent)/(b+1)",
+    "meaning": "the same locally derived quantity controls both influence and geometric scale"
+  },
+  "injectivity_test": {
+    "random_finite_trees": 10000,
+    "false_collisions": 0
+  },
+  "infinite_path_theorem_candidate": {
+    "statement": "Along any infinite descent path, every traversed node has at least one child, hence every interval contraction factor is <=1/2. Therefore interval width after k descents is <=2^-k and tends to zero.",
+    "consequence": "Every infinite ordered descent determines a unique limiting geometric address x.",
+    "width_upper_bounds_0_to_20": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625,
+      0.001953125,
+      0.0009765625,
+      0.00048828125,
+      0.000244140625,
+      0.0001220703125,
+      6.103515625e-05,
+      3.0517578125e-05,
+      1.52587890625e-05,
+      7.62939453125e-06,
+      3.814697265625e-06,
+      1.9073486328125e-06,
+      9.5367431640625e-07
+    ]
+  },
+  "bounded_branching_mass_theorem": {
+    "statement": "If every node has at most B children, then total level mass satisfies M_{k+1} <= [B/(B+1)] M_k, so total mass <= B+1.",
+    "importance": "An infinitely deep, infinitely populated hierarchy can still have finite canonical structural mass under bounded local branching."
+  },
+  "caution": "The geometry is canonical relative to the chosen Local Symmetry + Conservation axioms. If later axioms assign unequal local branch strengths, interval widths should be generalized proportionally."
+}

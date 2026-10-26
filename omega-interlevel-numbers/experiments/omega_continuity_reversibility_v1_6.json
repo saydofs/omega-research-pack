@@ -1,0 +1,183 @@
+{
+  "version": "Omega continuity/reversibility v1.6",
+  "continuity_rows": [
+    {
+      "common_prefix_depth": 0,
+      "structural_distance": 1.0,
+      "geometric_distance": 0.3333333333333333,
+      "ratio_geom_to_struct": 0.3333333333333333
+    },
+    {
+      "common_prefix_depth": 1,
+      "structural_distance": 0.5,
+      "geometric_distance": 0.1111111111111111,
+      "ratio_geom_to_struct": 0.2222222222222222
+    },
+    {
+      "common_prefix_depth": 2,
+      "structural_distance": 0.25,
+      "geometric_distance": 0.037037037037037035,
+      "ratio_geom_to_struct": 0.14814814814814814
+    },
+    {
+      "common_prefix_depth": 3,
+      "structural_distance": 0.125,
+      "geometric_distance": 0.012345679012345678,
+      "ratio_geom_to_struct": 0.09876543209876543
+    },
+    {
+      "common_prefix_depth": 4,
+      "structural_distance": 0.0625,
+      "geometric_distance": 0.00411522633744856,
+      "ratio_geom_to_struct": 0.06584362139917696
+    },
+    {
+      "common_prefix_depth": 5,
+      "structural_distance": 0.03125,
+      "geometric_distance": 0.0013717421124828531,
+      "ratio_geom_to_struct": 0.0438957475994513
+    },
+    {
+      "common_prefix_depth": 6,
+      "structural_distance": 0.015625,
+      "geometric_distance": 0.0004572473708276177,
+      "ratio_geom_to_struct": 0.029263831732967534
+    },
+    {
+      "common_prefix_depth": 7,
+      "structural_distance": 0.0078125,
+      "geometric_distance": 0.00015241579027587258,
+      "ratio_geom_to_struct": 0.01950922115531169
+    },
+    {
+      "common_prefix_depth": 8,
+      "structural_distance": 0.00390625,
+      "geometric_distance": 5.080526342529086e-05,
+      "ratio_geom_to_struct": 0.01300614743687446
+    },
+    {
+      "common_prefix_depth": 9,
+      "structural_distance": 0.001953125,
+      "geometric_distance": 1.6935087808430286e-05,
+      "ratio_geom_to_struct": 0.008670764957916306
+    },
+    {
+      "common_prefix_depth": 10,
+      "structural_distance": 0.0009765625,
+      "geometric_distance": 5.645029269476762e-06,
+      "ratio_geom_to_struct": 0.0057805099719442045
+    },
+    {
+      "common_prefix_depth": 11,
+      "structural_distance": 0.00048828125,
+      "geometric_distance": 1.8816764231589208e-06,
+      "ratio_geom_to_struct": 0.0038536733146294698
+    },
+    {
+      "common_prefix_depth": 12,
+      "structural_distance": 0.000244140625,
+      "geometric_distance": 6.272254743863069e-07,
+      "ratio_geom_to_struct": 0.002569115543086313
+    },
+    {
+      "common_prefix_depth": 13,
+      "structural_distance": 0.0001220703125,
+      "geometric_distance": 2.0907515812876897e-07,
+      "ratio_geom_to_struct": 0.0017127436953908754
+    },
+    {
+      "common_prefix_depth": 14,
+      "structural_distance": 6.103515625e-05,
+      "geometric_distance": 6.969171937625632e-08,
+      "ratio_geom_to_struct": 0.0011418291302605836
+    },
+    {
+      "common_prefix_depth": 15,
+      "structural_distance": 3.0517578125e-05,
+      "geometric_distance": 2.3230573125418773e-08,
+      "ratio_geom_to_struct": 0.0007612194201737224
+    }
+  ],
+  "canonical_geometry": {
+    "random_finite_trees": 10000,
+    "false_collisions": 0,
+    "result": "Exact ordered geometric addresses remained injective in testing."
+  },
+  "structural_subtraction": {
+    "trials": 10000,
+    "exact_recovery_successes": 10000,
+    "interpretation": "If B is literally a submultiset of C=A⊕B, structural subtraction recovers A exactly."
+  },
+  "cancellation": {
+    "left_failures": 0,
+    "right_failures": 0,
+    "interpretation": "No cancellation failures were found in the tested finite path algebra."
+  },
+  "square_roots_singleton_paths": [
+    {
+      "word": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "root": [
+        1,
+        2
+      ]
+    },
+    {
+      "word": [
+        1,
+        2,
+        3,
+        1,
+        2,
+        3
+      ],
+      "root": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "word": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "root": null
+    },
+    {
+      "word": [
+        5,
+        5
+      ],
+      "root": [
+        5
+      ]
+    },
+    {
+      "word": [
+        7
+      ],
+      "root": null
+    }
+  ],
+  "derived_results": [
+    "Canonical geometric addresses contract with common-prefix depth, so deeper structural differences become geometrically smaller.",
+    "Exact geometric addressing can preserve complete finite ordered structure.",
+    "Structural subtraction is well-defined when the removed path multiset is actually present.",
+    "Subtraction recovers structure, not Omega realization identity/history.",
+    "Singleton path square roots exist exactly when the word is two identical consecutive halves."
+  ],
+  "publication_value": [
+    "continuity of the canonical embedding",
+    "exact finite reversibility of structure",
+    "conditional structural subtraction",
+    "candidate cancellation property",
+    "nontrivial root criterion for singleton paths"
+  ]
+}

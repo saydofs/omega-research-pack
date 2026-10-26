@@ -1,0 +1,108 @@
+{
+  "version": "Omega axiom-derived interaction v1.2",
+  "status": "candidate interaction law derived from hierarchy/depth/branching assumptions",
+  "principles_used": [
+    "surface value remains the ordinary visible projection",
+    "internal structure contributes through depth-weighted occupancy",
+    "deeper contributions are attenuated by a similarity factor alpha in (0,1)",
+    "branching can contribute through a path-load variant"
+  ],
+  "examples": [
+    {
+      "A": "5[7[]|7[]]",
+      "B": "5[7[7[]]]",
+      "same_surface": true,
+      "structural_weight_A": 2.0,
+      "structural_weight_B": 1.75,
+      "path_weight_A": 4.0,
+      "path_weight_B": 1.75,
+      "interaction_with_probe_A": [
+        8,
+        4.5
+      ],
+      "interaction_with_probe_B": [
+        8,
+        3.9375
+      ],
+      "path_interaction_with_probe_A": [
+        8,
+        18.0
+      ],
+      "path_interaction_with_probe_B": [
+        8,
+        7.875
+      ]
+    },
+    {
+      "A": "5[1[]|2[]|9[]]",
+      "B": "5[1[2[]]|9[]]",
+      "same_surface": true,
+      "structural_weight_A": 2.5,
+      "structural_weight_B": 2.25,
+      "path_weight_A": 7.5,
+      "path_weight_B": 4.5,
+      "interaction_with_probe_A": [
+        8,
+        5.625
+      ],
+      "interaction_with_probe_B": [
+        8,
+        5.0625
+      ],
+      "path_interaction_with_probe_A": [
+        8,
+        33.75
+      ],
+      "path_interaction_with_probe_B": [
+        8,
+        20.25
+      ]
+    }
+  ],
+  "depth_refinement_effects": [
+    {
+      "added_depth": 1,
+      "delta": 0.5
+    },
+    {
+      "added_depth": 2,
+      "delta": 0.25
+    },
+    {
+      "added_depth": 3,
+      "delta": 0.125
+    },
+    {
+      "added_depth": 4,
+      "delta": 0.0625
+    },
+    {
+      "added_depth": 5,
+      "delta": 0.03125
+    },
+    {
+      "added_depth": 6,
+      "delta": 0.015625
+    },
+    {
+      "added_depth": 7,
+      "delta": 0.0078125
+    },
+    {
+      "added_depth": 8,
+      "delta": 0.00390625
+    }
+  ],
+  "random_test": {
+    "structurally_different_same_surface_pairs": 4112,
+    "distinguished_by_depth_weighted_occupancy_interaction": 3994,
+    "distinguished_by_path_load_interaction": 4013
+  },
+  "formal_properties": [
+    "Depth refinement contribution decays exactly as alpha^d in the occupancy law.",
+    "Surface projection of the interaction preserves ordinary addition.",
+    "Internal coupling depends only on hierarchy, depth and branching; no arbitrary token-value readout is required.",
+    "The law is still a candidate, not canonical: alpha and the precise coupling form need theoretical justification."
+  ],
+  "verdict": "Stronger than prior ad-hoc readouts because the interaction uses only internal structural primitives already defined by the framework. Still provisional until alpha/scale law is derived from the geometry rather than chosen."
+}

@@ -1,0 +1,188 @@
+{
+  "version": "Omega Path Algebra v0.8",
+  "samples": 10000,
+  "representation": "finite multiset of ordered root-to-leaf paths",
+  "operations": {
+    "addition": "multiset union of paths",
+    "multiplication": "all pairwise ordered path concatenations",
+    "zero": "empty path multiset (structural zero object; not a claim of physical nothingness)",
+    "one": "single empty path, acting as algebraic multiplicative identity"
+  },
+  "property_pass_counts": {
+    "add_comm": 10000,
+    "add_assoc": 10000,
+    "add_identity": 10000,
+    "mul_assoc": 10000,
+    "mul_left_identity": 10000,
+    "mul_right_identity": 10000,
+    "left_distrib": 10000,
+    "right_distrib": 10000,
+    "mul_comm": 3118,
+    "zero_absorbing_left": 10000,
+    "zero_absorbing_right": 10000
+  },
+  "noncommutative_multiplication_example": {
+    "A": [
+      [
+        5,
+        2,
+        4,
+        2
+      ],
+      [
+        4,
+        3,
+        2,
+        5
+      ]
+    ],
+    "B": [
+      [
+        3,
+        3,
+        1,
+        3
+      ],
+      [
+        2,
+        4,
+        3
+      ],
+      [
+        5,
+        4,
+        3
+      ]
+    ],
+    "A_times_B": [
+      [
+        5,
+        2,
+        4,
+        2,
+        3,
+        3,
+        1,
+        3
+      ],
+      [
+        5,
+        2,
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      [
+        5,
+        2,
+        4,
+        2,
+        5,
+        4,
+        3
+      ],
+      [
+        4,
+        3,
+        2,
+        5,
+        3,
+        3,
+        1,
+        3
+      ],
+      [
+        4,
+        3,
+        2,
+        5,
+        2,
+        4,
+        3
+      ],
+      [
+        4,
+        3,
+        2,
+        5,
+        5,
+        4,
+        3
+      ]
+    ],
+    "B_times_A": [
+      [
+        3,
+        3,
+        1,
+        3,
+        5,
+        2,
+        4,
+        2
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        4,
+        3,
+        2,
+        5
+      ],
+      [
+        2,
+        4,
+        3,
+        5,
+        2,
+        4,
+        2
+      ],
+      [
+        2,
+        4,
+        3,
+        4,
+        3,
+        2,
+        5
+      ],
+      [
+        5,
+        4,
+        3,
+        5,
+        2,
+        4,
+        2
+      ],
+      [
+        5,
+        4,
+        3,
+        4,
+        3,
+        2,
+        5
+      ]
+    ]
+  },
+  "formal_observation": {
+    "additive_structure": "commutative monoid",
+    "multiplicative_structure": "associative monoid under ordered concatenation",
+    "distributivity": "both left and right distributivity hold by expansion over path multisets",
+    "multiplication": "generally noncommutative because path order matters",
+    "overall_candidate": "a noncommutative semiring-like path algebra for structural content"
+  },
+  "omega_interpretation": [
+    "Addition places structural histories together without erasing either.",
+    "Multiplication composes one structural history after another; order matters.",
+    "The empty multiset is an algebraic structural zero, but this does not mean 'absolute nothingness' in the Omega cosmological sense.",
+    "A realized Omega object still needs unique birth/history labels on top of the structural algebra; algebraic equality of structures does not imply identity equality of realizations."
+  ],
+  "importance": "Unlike the rejected grafting product, this operation set satisfies stable algebraic laws and is derived directly from ordered hierarchical paths."
+}

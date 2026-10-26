@@ -1,0 +1,125 @@
+{
+  "prototype": "Omega Infinite-Depth Model v0.3",
+  "core_definitions": {
+    "infinite_number": "N=(n0,n1,n2,...) as an ordered infinite descent path",
+    "projection": "Pi_k(N)=(n0,...,nk)",
+    "identity_rule": "A=B iff Pi_k(A)=Pi_k(B) for every finite k",
+    "first_difference_depth": "delta(A,B)=min{k: nk(A) != nk(B)}",
+    "variable_scale_distance": "d_Omega(A,B)=product_{j<delta(A,B)} r_j, with 0<r_j<=1",
+    "convergence_condition": "If product_{j<k} r_j -> 0, deeper agreement forces distance -> 0"
+  },
+  "truncation_convergence": {
+    "contracting": [
+      {
+        "k": 5,
+        "d(prefix_k,prefix_160)": 0.029538407034923553
+      },
+      {
+        "k": 10,
+        "d(prefix_k,prefix_160)": 0.0003173964084636003
+      },
+      {
+        "k": 20,
+        "d(prefix_k,prefix_160)": 1.127393002261899e-07
+      },
+      {
+        "k": 40,
+        "d(prefix_k,prefix_160)": 1.539632116077782e-14
+      },
+      {
+        "k": 80,
+        "d(prefix_k,prefix_160)": 1.0328649125667199e-28
+      },
+      {
+        "k": 120,
+        "d(prefix_k,prefix_160)": 1.3157538427527306e-42
+      }
+    ],
+    "near_one": [
+      {
+        "k": 5,
+        "d(prefix_k,prefix_160)": 0.9137656976755584
+      },
+      {
+        "k": 10,
+        "d(prefix_k,prefix_160)": 0.8077049685409334
+      },
+      {
+        "k": 20,
+        "d(prefix_k,prefix_160)": 0.5693953024440737
+      },
+      {
+        "k": 40,
+        "d(prefix_k,prefix_160)": 0.3262787938589003
+      },
+      {
+        "k": 80,
+        "d(prefix_k,prefix_160)": 0.08695658426024716
+      },
+      {
+        "k": 120,
+        "d(prefix_k,prefix_160)": 0.02797815036267617
+      }
+    ],
+    "mixed_local_expansion": [
+      {
+        "k": 5,
+        "d(prefix_k,prefix_160)": 0.3781574999999999
+      },
+      {
+        "k": 10,
+        "d(prefix_k,prefix_160)": 0.14300309480624993
+      },
+      {
+        "k": 20,
+        "d(prefix_k,prefix_160)": 0.013633256749443538
+      },
+      {
+        "k": 40,
+        "d(prefix_k,prefix_160)": 0.00018586568959624782
+      },
+      {
+        "k": 80,
+        "d(prefix_k,prefix_160)": 2.3030703046059188e-08
+      },
+      {
+        "k": 120,
+        "d(prefix_k,prefix_160)": 2.853745002361464e-12
+      }
+    ]
+  },
+  "agreement_distance_contracting": {
+    "0": 1.0,
+    "1": 0.45,
+    "2": 0.22569183674055687,
+    "5": 0.029538407034923553,
+    "10": 0.0003173964084636003,
+    "20": 1.127393002261899e-07,
+    "40": 1.539632116077782e-14,
+    "80": 1.0328649125667199e-28
+  },
+  "triangle_test_trials": 20000,
+  "triangle_violations": 0,
+  "strong_triangle_violations": 0,
+  "cumulative_internal_lengths": {
+    "contracting_depth_200": 1.9068421190557665,
+    "near_one_depth_200": 34.837807474832374,
+    "mixed_depth_200": 5.736354273944387
+  },
+  "branch_mass_examples": {
+    "g=1.2,contracting": 2.3434911975772303,
+    "g=1.2,near_one": 1379866.5929791257,
+    "g=1.5,contracting": 3.4860804968512733,
+    "g=1.5,near_one": 34476755650553.094,
+    "g=2.0,contracting": 11.806917137740658,
+    "g=2.0,near_one": 2.1772923091552738e+23
+  },
+  "derived_observations": [
+    "Equal infinite numbers are determined by equality of all finite projections.",
+    "For local scales in (0,1], first-difference distance passed both ordinary and strong triangle inequality in stress tests.",
+    "If cumulative scale products tend to zero, finite truncations become arbitrarily close to the infinite-depth object.",
+    "Infinite depth does not force infinite path length; it depends on the scale sequence.",
+    "Local expansion r_k>1 can coexist with eventual contraction, but then metric behavior needs extra conditions."
+  ],
+  "open_problem": "Characterize the weakest conditions on a variable scale sequence r_k that preserve a valid distance while allowing local thickening and thinning."
+}
