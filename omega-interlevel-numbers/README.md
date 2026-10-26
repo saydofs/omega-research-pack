@@ -26,11 +26,11 @@ N_\Omega=(V,\mathcal T,\Gamma,\beta,\Lambda)
 
 where:
 
-- `V` — visible/surface value,
-- `T` — ordered hierarchical structure,
-- `Γ` — path/history,
-- `β` — unique realization identity,
-- `Λ` — local emergence/geometry data.
+- \(V\) — visible/surface value,
+- \(\mathcal T\) — ordered hierarchical structure,
+- \(\Gamma\) — path/history,
+- \(\beta\) — unique realization identity,
+- \(\Lambda\) — local emergence/geometry data.
 
 ---
 
@@ -78,7 +78,7 @@ while remaining different realizations:
 \boxed{N_1\neq N_2.}
 \]
 
-A repeated visible `5` is therefore not assumed to recreate the previous `5` identity.
+A repeated visible \(5\) is therefore not assumed to recreate the previous \(5\) identity.
 
 This is the **Omega Numerical Uniqueness Axiom** used by the framework.
 
@@ -169,9 +169,11 @@ Each parent interval is divided into \(b+1\) local channels.
 A child receives
 
 \[
+\boxed{
 W_{\text{child}}
 =
-\frac{W_{\text{parent}}}{b+1}.
+\frac{W_{\text{parent}}}{b+1}
+}
 \]
 
 The same locally derived law controls influence and geometric contraction.
@@ -347,6 +349,7 @@ CONTRIBUTING.md
 CITATION.cff
 CHANGELOG.md
 RESEARCH_STATUS.md
+PACKAGE_MANIFEST.json
 figures/
 experiments/
 ```
@@ -381,6 +384,7 @@ The project intentionally separates software licensing from manuscript rights.
 - **Code and executable research scripts:** PolyForm Noncommercial 1.0.0.
 - **Research manuscript, original explanatory text, and original figures:** Copyright © 2026 Mohamed Sayed. All rights reserved, subject to normal scholarly quotation, citation, and applicable legal exceptions.
 - **Commercial use:** requires separate written permission/license from the copyright holder.
+- **Official-framework status:** independent research, criticism, testing, and lawful extensions are welcome; however, no modified or derivative work may be represented as an official Omega-NR or Omega Interlevel Numbers release, or as approved or endorsed by Mohamed Sayed, without explicit written approval.
 
 See `RIGHTS_AND_LICENSING.md` and `LICENSE_CODE.md`.
 
@@ -432,4 +436,3 @@ However:
 This policy protects official-project provenance while leaving scientific criticism and independent mathematical research open.
 
 See `RIGHTS_AND_LICENSING.md` and `CONTRIBUTING.md`.
-
