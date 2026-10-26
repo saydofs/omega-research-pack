@@ -6,7 +6,7 @@
 **Related working preprint:**  
 *The Universe That Never Repeats: Omega-NR — Exact Physical Non-Repetition, Accumulated Change, and a Testable Quantum-Geometric Extension*  
 **DOI:** 10.5281/zenodo.23624320
-
+> **Omega Interlevel Numbers** is maintained as a separate mathematical research extension in [`omega-interlevel-numbers/`](./omega-interlevel-numbers/).
 ## Overview
 
 Omega Research Pack v4 is a research software prototype implementing and testing operational projections derived from the Omega-NR framework.
