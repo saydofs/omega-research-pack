@@ -2,27 +2,33 @@
 
 > **A mathematical exploration of numbers as unique hierarchical realizations rather than value-only objects.**
 
-**Omega Interlevel Numbers** is an exploratory mathematical extension of **Omega-NR — The Universe That Never Repeats**.
+**Author:** Mohamed Sayed  
+**Status:** Exploratory mathematical framework / research candidate  
+**Parent framework:** Omega-NR — *The Universe That Never Repeats*
 
-The project asks a simple but radical question:
+> **This README belongs specifically to the Omega Interlevel Numbers extension.**
+>
+> It is separate from the main repository README for **Omega Research Pack v4**.
 
-> If two numerical realizations display the same conventional value, must they be the same numerical object?
+## Central question
+
+If two numerical realizations display the same conventional value, must they be the same numerical object?
 
 Omega-NR answers **no** at the level of realization identity.
 
-So instead of treating a number only as
+Instead of treating a number only as
 
-\[
-N=v,
-\]
+$$
+N=v
+$$
 
 this project investigates objects of the form
 
-\[
+$$
 \boxed{
 N_\Omega=(V,\mathcal T,\Gamma,\beta,\Lambda)
 }
-\]
+$$
 
 where:
 
@@ -31,8 +37,6 @@ where:
 - \(\Gamma\) — path/history,
 - \(\beta\) — unique realization identity,
 - \(\Lambda\) — local emergence/geometry data.
-
----
 
 ## Why this exists
 
@@ -46,9 +50,7 @@ But many systems also care about:
 - whether two equal outputs have different histories,
 - whether reconstruction of a form also reconstructs the original identity.
 
-Omega Interlevel Numbers explores whether those questions can be encoded mathematically inside the number object itself.
-
----
+Omega Interlevel Numbers explores whether those questions can be encoded mathematically inside the numerical object itself.
 
 ## Zero and space in the broader Omega hypothesis
 
@@ -56,37 +58,35 @@ Omega-NR does not identify numerical zero with absolute non-existence.
 
 The broader hypothesis treats space itself as material in some form:
 
-\[
+$$
 \boxed{\text{Space is a form of material existence.}}
-\]
+$$
 
-This physical/ontological claim is **not proved or developed in this mathematical paper**; it is reserved for separate work. Its immediate consequence here is simply that numerical zero and structural boundaries must not be interpreted as absolute nothingness.
+This physical/ontological claim is **not proved or developed in this mathematical paper**; it is reserved for separate work.
 
----
+Its immediate consequence here is simply that numerical zero and structural boundaries must not be interpreted as absolute nothingness.
 
 ## Core principle
 
 Two realized numbers may have equal visible value:
 
-\[
-V(N_1)=V(N_2)=5,
-\]
+$$
+V(N_1)=V(N_2)=5
+$$
 
 while remaining different realizations:
 
-\[
-\boxed{N_1\neq N_2.}
-\]
+$$
+\boxed{N_1\neq N_2}
+$$
 
 A repeated visible \(5\) is therefore not assumed to recreate the previous \(5\) identity.
 
 This is the **Omega Numerical Uniqueness Axiom** used by the framework.
 
----
-
 ## What “interlevel” means
 
-A notation such as
+A notation such as:
 
 ```text
 555555[777777777[450]82]639
@@ -98,95 +98,92 @@ It represents an ordered hierarchy: numerical content can emerge at deeper level
 
 The internal content is structurally anchored but not merely “owned” by the previous digit.
 
----
-
 ## Main mathematical objects
 
 ### 1. Depth projection
 
-\[
+$$
 \Pi_k(N)
-\]
+$$
 
 shows the structure only through depth \(k\).
 
-\[
-\Pi_j(\Pi_k(N))=\Pi_{\min(j,k)}(N).
-\]
+$$
+\Pi_j(\Pi_k(N))=\Pi_{\min(j,k)}(N)
+$$
 
 ### 2. Depth profile
 
-\[
-H_N(z)=\sum_{k\ge0}L_kz^k.
-\]
+$$
+H_N(z)=\sum_{k\ge0}L_kz^k
+$$
 
 Useful as a coarse description, but not a complete identity fingerprint.
 
 ### 3. Exact structural signature
 
-\[
-S_\Omega(N)=\{(p_i,v_i,a_i,\ell_i)\}.
-\]
+$$
+S_\Omega(N)=\{(p_i,v_i,a_i,\ell_i)\}
+$$
 
 For finite ordered hierarchies, this signature is reconstructive.
 
-### 4. Local emergence law
+### 4. Local Emergence Law
 
 For a node with \(b\) children:
 
-\[
-\boxed{c_e=\frac1{b+1}}.
-\]
+$$
+\boxed{c_e=\frac{1}{b+1}}
+$$
 
 It follows from local conservation plus local symmetry among the \(b\) children and one retained parent-state channel.
 
-### 5. Canonical structural mass
+### 5. Canonical Structural Mass
 
-\[
-M_\Omega(N)=
+$$
+M_\Omega(N)
+=
 \sum_{v\in N}
-\prod_{e\in P(v)}c_e.
-\]
+\prod_{e\in P(v)}c_e
+$$
 
 For full \(b\)-ary infinite branching:
 
-\[
-\boxed{M_\Omega=b+1}.
-\]
+$$
+\boxed{M_\Omega=b+1}
+$$
 
 For branching bounded by \(B\):
 
-\[
-\boxed{M_\Omega\le B+1}.
-\]
+$$
+\boxed{M_\Omega\le B+1}
+$$
 
 So infinite depth does **not** necessarily imply infinite canonical mass.
 
-### 6. Canonical geometry
+### 6. Canonical Geometry
 
 Each parent interval is divided into \(b+1\) local channels.
 
-A child receives
+A child receives:
 
-\[
+$$
 \boxed{
 W_{\text{child}}
 =
 \frac{W_{\text{parent}}}{b+1}
 }
-\]
+$$
 
 The same locally derived law controls influence and geometric contraction.
 
 Along an infinite descent:
 
-\[
-W_k\le2^{-k}\to0,
-\]
+$$
+W_k\le2^{-k}\to0
+$$
 
 so the nested geometry converges to a unique limiting address.
-
----
 
 ## Omega Path Algebra
 
@@ -194,9 +191,9 @@ Finite structures can be represented by multisets of ordered root-to-leaf paths.
 
 ### Addition
 
-\[
+$$
 A\oplus_\Omega B
-\]
+$$
 
 is path-multiset union.
 
@@ -204,19 +201,19 @@ It is commutative and associative.
 
 ### Multiplication
 
-\[
+$$
 A\otimes_\Omega B
-\]
+$$
 
 concatenates every path of \(A\) with every path of \(B\).
 
 It is associative and distributive, but generally:
 
-\[
+$$
 \boxed{
-A\otimes_\Omega B\neq B\otimes_\Omega A.
+A\otimes_\Omega B\neq B\otimes_\Omega A
 }
-\]
+$$
 
 Order matters because path history matters.
 
@@ -224,9 +221,9 @@ Order matters because path history matters.
 
 If \(B\) is present inside \(C=A\oplus_\Omega B\),
 
-\[
-C\ominus_\Omega B=A.
-\]
+$$
+C\ominus_\Omega B=A
+$$
 
 This reconstructs structure, not historical identity.
 
@@ -236,41 +233,35 @@ Because multiplication is noncommutative, left and right factorization are diffe
 
 A longest common prefix corresponds naturally to a shared initial history; a longest common suffix corresponds to a shared terminal history.
 
----
-
 ## Structure can return; identity cannot be replayed
 
 A path can return to the same structural location:
 
-\[
-N_0\to N_1\to N_2\to N_1\to N_0.
-\]
+$$
+N_0\to N_1\to N_2\to N_1\to N_0
+$$
 
 But Omega realization identity treats the revisits as new events:
 
-\[
-N_1^{(1)}\neq N_1^{(2)}.
-\]
-
-This yields the central statement:
+$$
+N_1^{(1)}\neq N_1^{(2)}
+$$
 
 > **Structure may be reconstructed; identity cannot be replayed.**
-
----
 
 ## Difference from fractions or ordinary decimals
 
 A fraction such as
 
-\[
+$$
 \frac57
-\]
+$$
 
 represents a value.
 
 Omega Interlevel Numbers are intended to carry:
 
-\[
+$$
 \boxed{
 \text{value}
 +
@@ -282,15 +273,13 @@ Omega Interlevel Numbers are intended to carry:
 +
 \text{identity}
 +
-\text{history}.
+\text{history}
 }
-\]
+$$
 
 The framework survives a key conceptual test: same-surface structures can produce different structural responses because their internal organizations differ.
 
 That does **not yet** prove that this is a fundamentally new number system. It shows that the internal hierarchy can be operationally relevant rather than decorative metadata.
-
----
 
 ## Current status
 
@@ -317,8 +306,6 @@ It does **not** yet claim:
 - a unique or final geometry,
 - proven practical superiority over existing representations.
 
----
-
 ## Research philosophy
 
 This project is designed to be challenged.
@@ -334,8 +321,6 @@ Where possible, please accompany criticism with one of:
 - a reproducible experiment.
 
 The goal is not to protect the framework from criticism. The goal is to discover whether the underlying idea can survive rigorous mathematics.
-
----
 
 ## Repository map
 
@@ -354,8 +339,6 @@ figures/
 experiments/
 ```
 
----
-
 ## Relationship to Omega-NR
 
 Original Omega-NR preprint:
@@ -365,8 +348,6 @@ Original Omega-NR preprint:
 - Version DOI: `10.5281/zenodo.23624320`
 - Concept DOI: `10.5281/zenodo.23624319`
 
----
-
 ## Citation
 
 Until this extension receives its own DOI, cite the repository/package version and the author:
@@ -374,8 +355,6 @@ Until this extension receives its own DOI, cite the repository/package version a
 > Mohamed Sayed (2026). *Omega Interlevel Numbers: Hierarchical Numerical Identity, Path Algebra, and Canonical Geometry*. Exploratory research framework.
 
 See `CITATION.cff`.
-
----
 
 ## License and rights
 
@@ -388,38 +367,24 @@ The project intentionally separates software licensing from manuscript rights.
 
 See `RIGHTS_AND_LICENSING.md` and `LICENSE_CODE.md`.
 
----
-
-## Final note
-
-This project begins from a deliberately simple idea:
-
-> **The same visible numerical value need not mean the same numerical realization.**
-
-Everything else — hierarchy, depth, path algebra, geometry, and history — is an attempt to determine what mathematics follows if that idea is taken seriously.
-
----
-
 ## Possible fields of use
 
 Possible research/application domains include:
 
-- hierarchical mathematics and structured number systems;
-- history-dependent and non-Markovian systems;
-- engineering and material-state histories;
-- provenance and audit trails;
-- identity-aware computation;
-- integrity and cybersecurity research;
-- hierarchical databases and knowledge representation;
-- compression/generative representations;
-- geometric visualization of structured information;
-- industrial and scientific process traceability;
-- AI/agent state-history representation;
+- hierarchical mathematics and structured number systems,
+- history-dependent and non-Markovian systems,
+- engineering and material-state histories,
+- provenance and audit trails,
+- identity-aware computation,
+- integrity and cybersecurity research,
+- hierarchical databases and knowledge representation,
+- compression and generative representations,
+- geometric visualization of structured information,
+- industrial and scientific process traceability,
+- AI/agent state-history representation,
 - physics-inspired hierarchical state models.
 
 These are **candidate fields for investigation**, not claims of proven superiority or validated commercial performance.
-
----
 
 ## Development and official-project policy
 
@@ -435,4 +400,8 @@ However:
 
 This policy protects official-project provenance while leaving scientific criticism and independent mathematical research open.
 
-See `RIGHTS_AND_LICENSING.md` and `CONTRIBUTING.md`.
+## Final note
+
+> **The same visible numerical value need not mean the same numerical realization.**
+
+Everything else — hierarchy, depth, path algebra, geometry, and history — is an attempt to determine what mathematics follows if that idea is taken seriously.
