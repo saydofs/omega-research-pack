@@ -1,5 +1,34 @@
 # Omega Research Pack v4
 
+## 📚 Ω — The Universe That Never Repeats
+### الكون الذي لا يتكرر
+
+**First Illustrated Edition — V1.0 | November 2026**
+
+**Author:** Mohamed Sayed Mohamed Ali
+
+**7 Parts | 54 Chapters | 12 Illustrations**
+
+### 📖 Download the Book
+
+| Edition | Pages | Download |
+|---|---:|---|
+| English | 135 | [Download PDF](https://github.com/saydofs/omega-research-pack/releases/download/book-v1.0/Omega_The_Universe_That_Never_Repeats_EN_V1.0.pdf) |
+| العربية | 149 | [تحميل الكتاب PDF](https://github.com/saydofs/omega-research-pack/releases/download/book-v1.0/Omega_The_Universe_That_Never_Repeats_AR_V1.0.pdf) |
+
+**Official Publication:** [Zenodo](https://zenodo.org/records/24239126)
+
+**DOI:** [10.5281/zenodo.24239126](https://doi.org/10.5281/zenodo.24239126)
+
+> Numbers do not repeat, from the beginning of time to its end.
+>
+> الأرقام لا تتكرر منذ بداية الزمن وحتى نهايته.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24239126.svg)](https://doi.org/10.5281/zenodo.24239126)
+
+---
+
+
 **Author:** Mohamed Sayed  
 **Affiliation:** Independent Researcher  
 **Project:** Omega / The Universe That Never Repeats  
