@@ -1,5 +1,7 @@
 # Omega Research Pack v4
 
+**Ω Official Research Community on Zenodo:** [Omega — The Universe That Never Repeats](https://zenodo.org/communities/omega-research)
+
 ## 📚 Ω — The Universe That Never Repeats
 ### الكون الذي لا يتكرر
 
